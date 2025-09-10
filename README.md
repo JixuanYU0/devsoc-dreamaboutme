@@ -1,68 +1,55 @@
-# Dreams & Reality - Personal Portfolio Website
+# 🌟 Dreams - El's Personal Website
 
-A magical, interactive personal portfolio website with a "Dreams" theme featuring a Merida-inspired character and Harry Potter's sorting hat that reveals different dream elements when clicked.
+A creative, interactive personal website built around the theme of "Dreams" featuring a Duolingo-style roadmap game.
 
-## ✨ Features
+## 🎮 Features
 
-- **Interactive Character**: Merida-inspired character with curly red hair and freckles
-- **Magical Sorting Hat**: Click the hat to reveal dream bubbles with different aspirations
-- **Dream Categories**: Career, Travel, Creative, Learning, Impact, and Adventure dreams
-- **Animated Elements**: Floating particles, smooth transitions, and magical effects
+- **Interactive Roadmap Game**: Complete milestones to help El reach her dream ice cream!
+- **Personal Story**: Learn about El's journey from childhood dreams to startup founder
 - **Responsive Design**: Works perfectly on all devices
-- **Interactive Modals**: Click on dream bubbles to see detailed descriptions
+- **Animated Elements**: Engaging mascot and smooth animations
+- **Dream Theme**: Everything revolves around the concept of dreams and aspirations
 
-## 🎨 Design Elements
+## 🚀 Live Website
 
-- **Dream Theme**: Soft gradients, magical animations, and dreamy color palette
-- **Character Design**: Custom CSS-drawn Merida-inspired character
-- **Sorting Hat**: Interactive Harry Potter-style sorting hat with golden eyes
-- **Dream Bubbles**: Floating dream elements that appear when hat is clicked
-- **Magical Effects**: Sparkles, floating animations, and smooth transitions
+Visit the live website: [https://jixuanyu0.github.io/devsoc-dreamaboutme/](https://jixuanyu0.github.io/devsoc-dreamaboutme/)
 
-## 🚀 Live Demo
+## 🎨 Design Highlights
 
-Visit the live website: [Dreams & Reality Portfolio](https://yourusername.github.io/devsoc-dreamaboutme/)
+- **Pink & Black Theme**: Vibrant hot pink background with strong black text
+- **Duolingo-Style Game**: Interactive milestone completion system
+- **Sassy Mascot**: Eye-rolling emoji with yellow chat bubbles
+- **3D Elements**: Animated penguin mascot that moves along the roadmap
+- **Clean Typography**: Professional fonts and clear hierarchy
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic structure and accessibility
+- **HTML5**: Semantic structure
 - **CSS3**: Advanced animations, gradients, and responsive design
-- **JavaScript**: Interactive elements and smooth animations
-- **Font Awesome**: Icons for dream categories
-- **Google Fonts**: Space Grotesk and Inter typography
+- **JavaScript**: Interactive game logic and DOM manipulation
+- **GitHub Pages**: Free hosting platform
 
 ## 📱 Responsive Design
 
-The website is fully responsive and optimized for:
+The website is fully responsive and works great on:
 - Desktop computers
 - Tablets
 - Mobile phones
-- Various screen sizes and orientations
 
-## 🎯 Interactive Features
+## 🎯 Application Theme: Dreams
 
-1. **Sorting Hat Click**: Click the hat to reveal/hide dream bubbles
-2. **Dream Bubble Click**: Click any dream bubble to see detailed information
-3. **Smooth Scrolling**: Navigate between sections with smooth scrolling
-4. **Mobile Navigation**: Hamburger menu for mobile devices
-5. **Magical Effects**: Sparkles and animations throughout the site
+This website perfectly embodies the "Dreams" theme by:
+- Telling El's personal dream journey from childhood to startup founder
+- Using dream-related imagery (ice cream as the ultimate dream goal)
+- Creating an interactive experience that represents pursuing dreams
+- Showcasing how dreams evolve and grow over time
 
-## 🎨 Customization
+## 🚀 Getting Started
 
-The website is easily customizable:
-- Update personal information in the HTML
-- Modify dream categories and descriptions
-- Change color schemes in CSS variables
-- Add new interactive elements
+1. Clone the repository
+2. Open `index.html` in your browser
+3. Start completing milestones to help El reach her dream!
 
-## 📄 License
+## 📝 License
 
-This project is open source and available under the MIT License.
-
-## 🤝 Contributing
-
-Feel free to fork this project and submit pull requests for any improvements!
-
----
-
-*Made with ❤️ and lots of imagination*
+This project is created for the DevSoc UNSW application.
