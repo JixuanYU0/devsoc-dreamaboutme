@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dream Journey - Duolingo Style</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One:wght@400&family=Comic+Neue:wght@300;400;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="progress-text">
+            <span id="progressText">0/6 Milestones Completed</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="game-header">
+        <div class="header-content">
+            <h1 class="game-title">Help El get her DREAM icecream!</h1>
+            <p class="game-subtitle">Complete all milestones to help El reach her delicious reward!</p>
+        </div>
+    </header>
+
+    <!-- Main Game Container -->
+    <main class="game-container">
+        <!-- Duolingo Mascot (Fixed Position) -->
+        <div class="mascot-container">
+            <div class="duolingo-mascot" id="mascot">
+                <div class="lily-emoji">🙄</div>
+            </div>
+        </div>
+
+        <!-- Small Mascot (Moves along roadmap) -->
+        <div class="small-mascot-container" id="smallMascot">
+            <div class="small-duolingo-mascot">
+                <div class="small-animal-icon penguin">
+                    <div class="small-animal-body"></div>
+                    <div class="small-animal-head">
+                        <div class="small-animal-eyes">
+                            <div class="small-eye left"></div>
+                            <div class="small-eye right"></div>
+                        </div>
+                        <div class="small-animal-beak"></div>
+                    </div>
+                    <div class="small-animal-wings">
+                        <div class="small-wing left-wing"></div>
+                        <div class="small-wing right-wing"></div>
+                    </div>
+                    <div class="small-animal-feet">
+                        <div class="small-foot left"></div>
+                        <div class="small-foot right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Roadmap Path -->
+        <div class="roadmap-container">
+            <div class="roadmap-path">
+                <!-- Milestone 1: Introduction -->
+                <div class="milestone" data-milestone="1" id="milestone1">
+                    <div class="milestone-content">
+                        <h3>El's Childhood HarryPotter Dream</h3>
+                    </div>
+                    <div class="milestone-lock">
+                        <div class="lock-icon">
+                            <div class="lock-body"></div>
+                            <div class="lock-shackle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="milestone" data-milestone="2" id="milestone2">
+                    <div class="milestone-content">
+                        <h3>El's Earlystage Criminal Minds Dream </h3>
+                        <p>Hot Morgan</p>
+                    </div>
+                    <div class="milestone-lock">
+                        <div class="lock-icon">
+                            <div class="lock-body"></div>
+                            <div class="lock-shackle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="milestone" data-milestone="3" id="milestone3">
+                    <div class="milestone-content">
+                        <h3>El's Last Year Dream</h3>
+                        <p>See what El WISHED to do</p>
+                    </div>
+                    <div class="milestone-lock">
+                        <div class="lock-icon">
+                            <div class="lock-body"></div>
+                            <div class="lock-shackle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 4: Dreams -->
+                <div class="milestone" data-milestone="4" id="milestone4">
+                    <div class="milestone-content">
+                        <h3>El's NOW NOW Dreams</h3>
+                        <p>You know what you gonna do </p>
+                        <p>DevSoc staff, please make sure you click this, one surprise message inside!!! </p>
+                    </div>
+                    <div class="milestone-lock">
+                        <div class="lock-icon">
+                            <div class="lock-body"></div>
+                            <div class="lock-shackle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 5: Projects -->
+                <div class="milestone" data-milestone="5" id="milestone5">
+                    <div class="milestone-content">
+                        <h3>This Minute Dream</h3>
+                        <p>Click ME!!!</p>
+                    </div>
+                    <div class="milestone-lock">
+                        <div class="lock-icon">
+                            <div class="lock-body"></div>
+                            <div class="lock-shackle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Milestone 6: Contact -->
+                <div class="milestone" data-milestone="6" id="milestone6">
+                    <div class="milestone-content">
+                        <h3>Let's Connect</h3>
+                        <p>Get in touch with me</p>
+                    </div>
+                    <div class="milestone-lock">
+                        <div class="lock-icon">
+                            <div class="lock-body"></div>
+                            <div class="lock-shackle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Final Goal: Ice Cream -->
+                <div class="final-goal" id="iceCreamGoal">
+                    <div class="ice-cream">🍦</div>
+                    <div class="goal-text">
+                        <h2>ICE CREAM!</h2>
+                        <p>You did it! Here's your reward!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Milestone Modal -->
+        <div class="milestone-modal" id="milestoneModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="modalTitle">Milestone Complete!</h2>
+                    <button class="close-btn" id="closeModal">×</button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    <!-- Content will be loaded here -->
+                </div>
+                <div class="modal-footer">
+                    <button class="next-btn" id="nextBtn">Continue Journey</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Celebration Modal -->
+        <div class="celebration-modal" id="celebrationModal">
+            <div class="celebration-content">
+                <h1>🎉 CONGRATULATIONS! 🎉</h1>
+                <p>You've completed my entire journey!</p>
+                <div class="celebration-ice-cream">🍦🍦🍦</div>
+                <p>Now you know everything about me!</p>
+                <button class="restart-btn" id="restartBtn">Start Over</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
